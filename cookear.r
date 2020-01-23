@@ -25,7 +25,7 @@ cookear<-function(x.y){
     geom_hline(data = sp4, aes(yintercept = 4*sp4$MN_Mean),size=1.5, colour="red")  +
     guides(colour = guide_legend(override.aes = list(size=5,linetype=4))) +
     scale_size(range=c(2,5))  +
-    facet_wrap(ESP_MUE~ESTRATO_RIM, scales="free")   +
+    facet_grid(ESP_MUE~ESTRATO_RIM, scales="free")   +
                geom_label_repel(show.legend=FALSE,data=subset(sp3,cooksd>4*MN),aes(fontface="bold",
                  PESO,cooksd, label = paste( FECHA_MUE, "", "\n",
                 round(PESO,2), "", "KG")),label.size = 1,segment.color="darkblue",
