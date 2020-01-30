@@ -34,3 +34,4 @@ cookear<-function(x.y){
                 guides(colour = guide_legend(override.aes = list(size=4,linetype=4))) # +
         #theme(legend.position = "none")
 }
+       
