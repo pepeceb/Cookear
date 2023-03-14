@@ -1,6 +1,6 @@
 cookear<-function(x.y){
         
-       olp <- c("A Coruña" = "steelblue", "Santa Eugenia de Ribeira" = "blue", "Cillero"="darkgreen",
+       colp <- c("A Coruña" = "steelblue", "Santa Eugenia de Ribeira" = "blue", "Cillero"="darkgreen",
           "Vigo" = "orange", "Avil?s-Gij?n" = "darkblue","Avil?s"="red", "Gij?n"="#00BFC4",
           "Santo?a" = "#7CAE00", "Cedeira"="forestgreen", "Finisterre"= "darkgoldenrod2",
           "Luarca" = "chartreuse4", "Muros"= "#619CFF", "Celeiro"="darkgreen", "Burela" ="yellowgreen",
